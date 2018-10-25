@@ -83,6 +83,10 @@
     margin: 2px 0;
     margin-left: auto;
     margin-right: auto;
+
+    .badge-wrapper.bullet {
+        margin: 0;
+    }
 }
 
 .drop-down-visible .d-header .icons .active .icon {
