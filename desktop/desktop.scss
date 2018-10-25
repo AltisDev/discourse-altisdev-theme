@@ -1,5 +1,7 @@
 .d-header {
     height: 70px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+    border-bottom: 2px solid #f3a633;
 
     .wrap {
         max-width: none;
@@ -14,7 +16,7 @@
         margin: -15px 0;
         margin-right: 20px;
         padding: 20px;
-        background-color: #3e3e3e;
+        border-right: 1px solid #cfcfcf;
 
     }
 
