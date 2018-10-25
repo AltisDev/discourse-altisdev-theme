@@ -92,3 +92,28 @@ tr[data-category-id="275"] {
     border-radius: 24px;
     box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
 }
+
+.nav-pills > li {
+    > a {
+        border-radius: 4px;
+    }
+    
+	&.active > a {
+		border-radius: 4px;
+	}
+	> a.active {
+		border-radius: 4px;
+	}
+}
+.layouts-nav-button > li {
+    > a {
+        border-radius: 4px;
+    }
+
+	&.active > a {
+		border-radius: 4px;
+	}
+	> a.active {
+		border-radius: 4px;
+	}
+}
