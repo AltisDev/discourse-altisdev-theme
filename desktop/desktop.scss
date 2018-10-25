@@ -70,6 +70,21 @@
     }
 }
 
+.topic-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 32px;
+    padding: 0 12px;
+    border: 0;
+    border-radius: 16px;
+    background-color: #a5a5a5;
+    color: rgba(0,0,0,.87);
+    margin: 2px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .drop-down-visible .d-header .icons .active .icon {
     border: none;
 }
