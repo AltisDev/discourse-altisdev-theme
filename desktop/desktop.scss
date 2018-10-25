@@ -142,9 +142,13 @@
 #topic {
     .post-stream {
         width: 70%;
+        .small-action {
+            border: none;
+        }
         .topic-post {
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
             border-top: #ffa300 2px solid;
+            margin-bottom: 1rem;
             .topic-avatar {
                 border: none;
             }
@@ -152,6 +156,9 @@
                 border: none;
             }
         }
+    }
+    .topic-status-info {
+        border: none;
     }
 }
 
