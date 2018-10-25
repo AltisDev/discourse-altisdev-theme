@@ -94,26 +94,26 @@ tr[data-category-id="275"] {
 }
 
 .nav-pills > li {
-    > a {
-        border-radius: 4px;
-    }
-    
-	&.active > a {
+	> a {
 		border-radius: 4px;
+		&.active {
+
+			border-radius: 4px;
+		}
 	}
-	> a.active {
+	&.active > a {
 		border-radius: 4px;
 	}
 }
 .layouts-nav-button > li {
-    > a {
-        border-radius: 4px;
-    }
-
-	&.active > a {
+	> a {
 		border-radius: 4px;
+		&.active {
+
+			border-radius: 4px;
+		}
 	}
-	> a.active {
+	&.active > a {
 		border-radius: 4px;
 	}
 }
