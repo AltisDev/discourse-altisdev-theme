@@ -85,6 +85,11 @@
 
     .badge-wrapper.bullet {
         margin: 0;
+
+        .badge-category-bg {
+            border-radius: 16px;
+            margin-right: 8px;
+        }
     }
 }
 
