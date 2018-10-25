@@ -141,8 +141,10 @@
 /* Increase font size of titles in topics */
 #topic {
     .post-stream {
+        width: 70%;
         border-top: #ffa300 2px solid;
         box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        padding: 1em;
     }
 }
 
