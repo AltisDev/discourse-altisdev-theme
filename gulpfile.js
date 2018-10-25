@@ -5,15 +5,15 @@ var pump = require('pump')
 var babel = require('gulp-babel')
 var inline = require('gulp-inline')
 
-gulp.task('concat', cb => {
-  pump([
-      gulp.src('src/common/head_tag/*.js'),
-      concat('head_tag.js'),
-      gulp.dest('src/common/')
-    ],
-    cb
-  )
-})
+// gulp.task('concat', cb => {
+//   pump([
+//       gulp.src('src/common/head_tag/*.js'),
+//       concat('head_tag.js'),
+//       gulp.dest('src/common/')
+//     ],
+//     cb
+//   )
+// })
 
 gulp.task('inline', ['concat'], cb => {
   pump([
