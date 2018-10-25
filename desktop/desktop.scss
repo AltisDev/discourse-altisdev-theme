@@ -118,12 +118,17 @@
 /* Increase font size of titles in topics */
 
 #topic-title {
-        border-top: #ff5627 2px solid;
+    border-top: #ff5627 2px solid;
     padding: 21px 41px;
+}
+
+#topic-title .title-wrapper {
+    width: 100%;
 }
 
 #topic-title h1 {
     font-size: 2.14em;
+    text-align: center;
 }
 
 /* Move category badges to banner below header */
