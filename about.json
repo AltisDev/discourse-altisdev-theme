@@ -1,7 +1,7 @@
 {
-  "name": "moz://a",
-  "about_url": "https://github.com/mozilla/discourse-mozilla-theme",
-  "license_url": "https://github.com/mozilla/discourse-mozilla-theme/blob/master/LICENSE",
+  "name": "AltisDev",
+  "about_url": "https://github.com/AltisDev/discourse-mozilla-theme",
+  "license_url": "https://github.com/AltisDev/discourse-mozilla-theme/blob/master/LICENSE",
   "color_schemes": {
     "moz://a": {
       "primary": "000000",
