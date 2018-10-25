@@ -139,10 +139,17 @@
 }
 
 /* Increase font size of titles in topics */
+#topic {
+    .post-stream {
+        border-top: #ffa300 2px solid;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+}
 
 #topic-title {
-    border-top: #ff5627 2px solid;
+    border-top: #ffa300 2px solid;
     padding: 21px 41px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 #topic-title .title-wrapper {
