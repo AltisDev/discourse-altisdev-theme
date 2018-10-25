@@ -132,3 +132,38 @@ tr[data-category-id="275"] {
     box-shadow: none;
     border-radius: 0;
 }
+
+/* custom navigation */
+.navbar {
+    position: fixed;
+    z-index: 1040;
+    box-sizing: border-box;
+    width: 100%;
+    left: calc((100vw - 1220px) / 2);
+}
+@media screen and (max-width: 1125px) {
+    .navbar {
+        left: 5px;
+    }
+}
+.navbar .contents {
+    position: absolute;
+    left: 158px;
+    height: 5.40rem;
+    display: flex;
+}
+.navbar-item, .navbar-item:visited, .navbar-item:active {
+    color: #fff;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+    display: none;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+}
+@media screen and (min-width: 915px) {
+    .navbar-item, .navbar-item:visited, .navbar-item:active {
+        display: flex;
+    }
+}
