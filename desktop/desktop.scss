@@ -141,20 +141,23 @@
 /* Increase font size of titles in topics */
 #topic {
     .post-stream {
-        width: 70%;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
         .small-action {
             border: none;
         }
         .topic-post {
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            border-top: #ffa300 2px solid;
-            margin-bottom: 1rem;
             .topic-avatar {
                 border: none;
                 margin-left: 15px;
             }
             .topic-body {
-                border: none;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+                border-top: #ffa300 2px solid;
+                border: #5252522e 1px solid;
+                margin-bottom: 1rem;
+                margin-left: 1rem;
+                padding-right: 1rem;
                 .topic-meta-data {
                     margin-top: 15px;
                 }
