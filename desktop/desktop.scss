@@ -151,9 +151,13 @@
             margin-bottom: 1rem;
             .topic-avatar {
                 border: none;
+                margin-left: 15px;
             }
             .topic-body {
                 border: none;
+                .topic-meta-data {
+                    margin-top: 15px;
+                }
             }
         }
     }
