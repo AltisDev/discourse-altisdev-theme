@@ -96,35 +96,33 @@ tr[data-category-id="275"] {
 .nav-pills > li {
 	> a {
         border-radius: 4px;
-        border-top: #ffa300 2px solid;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        border-top: #8e8c8c 2px solid;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.08);
 		&.active {
-            border-radius: 4px;
             border-top: #ffa300 2px solid;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 5px rgba(0,0,0,0.08);
 		}
 	}
 	&.active > a {
 		border-radius: 4px;
         border-top: #ffa300 2px solid;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        box-shadow: 0 5px 5px rgba(0,0,0,0.08);
 	}
 }
 .layouts-nav-button > li {
 	> a {
 		border-radius: 4px;
-        border-top: #ffa300 2px solid;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        border-top: #8e8c8c 2px solid;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.08);
 		&.active {
-			border-radius: 4px;
             border-top: #ffa300 2px solid;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 5px rgba(0,0,0,0.08);
 		}
 	}
 	&.active > a {
 		border-radius: 4px;
         border-top: #ffa300 2px solid;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        box-shadow: 0 5px 5px rgba(0,0,0,0.08);
 	}
 }
 
