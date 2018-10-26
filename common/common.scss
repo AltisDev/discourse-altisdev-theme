@@ -182,3 +182,34 @@ tr[data-category-id="275"] {
     margin-right: 0.5em;
     border-radius: 2px;
 }
+
+.admin-controls {
+    .nav-pills {
+        width: calc(100% - 10px);
+        display: inline-flex;
+        padding: 10px;
+        margin: 0;
+        white-space: nowrap;
+        overflow-x: auto;
+        @include breakpoint(tablet) {
+            margin-left: -10px;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        &:before {
+            display: none;
+        }
+        > li {
+            margin: 5px;
+            a.active {
+            background: $secondary;
+            }
+            &:last-of-type {
+            > a {
+                margin-right: 25px;
+            }
+            }
+        }
+    }
+}
