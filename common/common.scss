@@ -96,7 +96,7 @@ tr[data-category-id="275"] {
       &:hover,
       &.btn-hover {
         border-bottom: #ffa300 2px solid;
-        border-top: #ffa300 2px solid;
+        border-top: #ffa300 1px solid;
         box-shadow: 0 5px 15px rgba(0,0,0,0.08);
         border-radius: 4px;
         background: transparent;
@@ -112,7 +112,7 @@ tr[data-category-id="275"] {
         box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 		&.active {
             border-bottom: #ffa300 2px solid;
-            border-top: #ffa300 2px solid;
+            border-top: #ffa300 1px solid;
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
             background-color: transparent;
             color: $tertiary;
@@ -120,14 +120,14 @@ tr[data-category-id="275"] {
         
         &:hover {
             border-bottom: #ffa300 2px solid;
-            border-top: #ffa300 2px solid;
+            border-top: #ffa300 1px solid;
             background-color: transparent;
         }
 	}
 	&.active > a {
 		border-radius: 4px;
         border-bottom: #ffa300 2px solid;
-        border-top: #ffa300 2px solid;
+        border-top: #ffa300 1px solid;
         box-shadow: 0 5px 15px rgba(0,0,0,0.08);
         background-color: transparent;
         color: $tertiary;
@@ -140,21 +140,21 @@ tr[data-category-id="275"] {
         box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 		&.active {
             border-bottom: #ffa300 2px solid;
-            border-top: #ffa300 2px solid;
+            border-top: #ffa300 1px solid;
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
             background-color: transparent;
             color: $tertiary;
         }
         &:hover {
             border-bottom: #ffa300 2px solid;
-            border-top: #ffa300 2px solid;
+            border-top: #ffa300 1px solid;
             background-color: transparent;
         }
 	}
 	&.active > a {
 		border-radius: 4px;
         border-bottom: #ffa300 2px solid;
-        border-top: #ffa300 2px solid;
+        border-top: #ffa300 1px solid;
         box-shadow: 0 5px 15px rgba(0,0,0,0.08);
         background-color: transparent;
         color: $tertiary;
@@ -168,7 +168,7 @@ tr[data-category-id="275"] {
 
 .list-controls .combo-box .combo-box-header {
     border-bottom: #ffa300 2px solid;
-    border-top: #ffa300 2px solid;
+    border-top: #ffa300 1px solid;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     border-left: none;
     border-right: none;
