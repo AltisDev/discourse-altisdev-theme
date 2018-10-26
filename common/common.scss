@@ -190,8 +190,8 @@ tr[data-category-id="275"] {
         }
         > li {
             margin: 5px;
-            a.active {
-            background: $secondary;
+            a {
+                background: $secondary;
             }
             &:last-of-type {
             > a {
