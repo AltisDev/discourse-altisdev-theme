@@ -77,17 +77,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    line-height: 32px;
-    padding: 0 12px;
-    border: 1px solid #000;
-    border-radius: 16px;
-    color: rgba(0,0,0,.87);
-    margin: 2px 0;
     margin-left: auto;
     margin-right: auto;
 
     .badge-wrapper.bullet {
-        margin: 0;
+        line-height: 32px;
+        padding: 0 12px;
+        border: 1px solid #000;
+        border-radius: 16px;
+        color: rgba(0,0,0,0.87);
+        margin: 5px;
 
         .badge-category-bg {
             border-radius: 16px;
