@@ -101,12 +101,21 @@ tr[data-category-id="275"] {
 		&.active {
             border-top: #ffa300 2px solid;
             box-shadow: 0 5px 5px rgba(0,0,0,0.08);
-		}
+            background-color: transparent;
+            color: #000;
+        }
+        
+        &:hover {
+            border-top: #ffa300 2px solid;
+            background-color: transparent;
+        }
 	}
 	&.active > a {
 		border-radius: 4px;
         border-top: #ffa300 2px solid;
         box-shadow: 0 5px 5px rgba(0,0,0,0.08);
+        background-color: transparent;
+        color: #000;
 	}
 }
 .layouts-nav-button > li {
@@ -117,12 +126,20 @@ tr[data-category-id="275"] {
 		&.active {
             border-top: #ffa300 2px solid;
             box-shadow: 0 5px 5px rgba(0,0,0,0.08);
-		}
+            background-color: transparent;
+            color: #000;
+        }
+        &:hover {
+            border-top: #ffa300 2px solid;
+            background-color: transparent;
+        }
 	}
 	&.active > a {
 		border-radius: 4px;
         border-top: #ffa300 2px solid;
         box-shadow: 0 5px 5px rgba(0,0,0,0.08);
+        background-color: transparent;
+        color: #000;
 	}
 }
 
