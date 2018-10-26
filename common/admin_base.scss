@@ -1,0 +1,28 @@
+.nav-pills {
+    width: calc(100% - 10px);
+    display: inline-flex;
+    padding: 10px;
+    margin: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    @include breakpoint(tablet) {
+        margin-left: -10px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    &:before {
+        display: none;
+    }
+    > li {
+        margin: 0;
+        a.active {
+        background: $secondary;
+        }
+        &:last-of-type {
+        > a {
+            margin-right: 25px;
+        }
+        }
+    }
+}
