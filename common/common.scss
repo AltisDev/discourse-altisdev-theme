@@ -154,6 +154,13 @@ tr[data-category-id="275"] {
 	}
 }
 
+.badge-wrapper {
+    &.bullet {
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 5px;
+    }
+}  
+
 .alert {
     border-radius: 4px;
     padding: 1.25rem 2.5rem 1.25rem 1.5rem;
