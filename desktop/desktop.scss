@@ -264,3 +264,32 @@
     right: 45px;
   }
 }
+
+#chat.dropdown-menu {
+    top: 40px; /*because I use a custom header probably you need to change a bit this value*/
+    left: -185px;
+    width: 350px;
+}
+
+#chatwidget {
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+}   
+
+#chat-button.icon {
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+}
+
+#chat-button.icon:hover {
+    color: #222;
+    background-color: #e9e9e9;
+}
+
+#chat.dropdown.open {
+    color: #7b7b7b;
+    background-color: #fff;
+    border-top: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
